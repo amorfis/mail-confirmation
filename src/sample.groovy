@@ -1,6 +1,4 @@
-import java.text.SimpleDateFormat
-
-set 'port', 4999
+//set 'port', 4999
 
 get("/") {
 	def ua = headers['user-agent']
