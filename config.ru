@@ -1,0 +1,1 @@
+run Class.forName('com.bleedingwolf.ratpack.RatpackRunner').newInstance().run(scriptFile)
