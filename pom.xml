@@ -12,6 +12,7 @@
             <groupId>com.bleedingwolf.ratpack</groupId>
             <artifactId>Ratpack</artifactId>
             <version>0.2-SNAPSHOT</version>
+            <scope>system</scope>
             <systemPath>${basedir}/ratpack/lib/Ratpack-0.2-SNAPSHOT.jar</systemPath>
         </dependency>
 
