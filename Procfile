@@ -1,3 +1,1 @@
-web: java -cp ratpack/lib/*:target/classes    src/sample.groovy
-
-
+web: java -cp target/classes:target/dependency Start
