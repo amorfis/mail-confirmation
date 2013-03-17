@@ -1,4 +1,4 @@
-//set 'port', 4999
+set 'port', System.getProperty("ratpack.port")
 
 get("/") {
 	def ua = headers['user-agent']
