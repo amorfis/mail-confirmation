@@ -1,2 +1,3 @@
-web: ratpack/bin/ratpack src/sample.groovy
+web: java -cp ratpack/lib/*:target/classes    src/sample.groovy
+
 
