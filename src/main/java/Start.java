@@ -4,6 +4,6 @@ import java.io.File;
 
 public class Start {
     public static void main(String[] args) {
-        new RatpackRunner().run(new File("src/sample.groovy"));
+        new RatpackRunner().run(new File("src/main/groovy/sample.groovy"));
     }
 }
