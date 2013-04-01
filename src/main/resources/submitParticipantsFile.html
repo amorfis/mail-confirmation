@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Submit participants</title>
+</head>
+<body>
+    Send participants emails file. This operation is not deleting any data.
+    File should have one email per line.
+    <form action="/appendParticipants" method="POST" enctype="multipart/form-data">
+        Password: <input type="password" name="password" />
+        File: <input type="file" name="participantsEmails" />
+        <input type="submit" />
+    </form>
+</body>
+</html>
