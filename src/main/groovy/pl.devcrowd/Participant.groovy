@@ -2,9 +2,11 @@ package pl.devcrowd
 
 import com.google.code.morphia.annotations.Entity
 import com.google.code.morphia.annotations.Id
+import com.google.code.morphia.annotations.Index
 import org.apache.commons.lang3.RandomStringUtils
 
 @Entity(value = "participants", noClassnameStored = true)
+@Index(value = "email", unique = true, sparse = true)
 class Participant {
 
   @Id
