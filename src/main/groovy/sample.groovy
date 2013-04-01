@@ -11,6 +11,10 @@ post("/send") {
   "Sent"
 }
 
+get("/sendmail") {
+  new pl.devcrowd.MailSender().sendMail()
+}
+
 get("/appendParticipants") {
   render "submitParticipantsFile.html"
 }
